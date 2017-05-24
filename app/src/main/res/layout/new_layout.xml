@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.admin.study2.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintVertical_bias="0.033"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintVertical_bias="0.106"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <Button
+        android:id="@+id/buttonClickHandler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.107"
+
+        />
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameText"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/DynatextView"
+            android:layout_width="match_parent"
+            android:layout_height="132dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginStart="12dp"
+            android:text="TextView"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="@+id/parent"
+            app:layout_constraintTop_toBottomOf="@+id/ipsomTextView"
+            app:layout_constraintVertical_bias="0.285"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1" />
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

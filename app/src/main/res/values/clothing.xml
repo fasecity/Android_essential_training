@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clothing">
+        <item>shirt</item>
+        <item>pants</item>
+        <item>hat</item>
+        <item>belt</item>
+        <item>boxers</item>
+
+    </string-array>
+</resources>
