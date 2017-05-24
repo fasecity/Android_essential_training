@@ -109,7 +109,7 @@ public class ListActivity extends AppCompatActivity {
                         .setAction("Go to cart", new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {
-                                Toast.makeText(ListActivity.this, " You went to cart", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(ListActivity.this, " You went to cart!", Toast.LENGTH_SHORT).show();
                             }
                         }).show();
 
